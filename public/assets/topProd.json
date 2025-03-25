@@ -1,0 +1,48 @@
+[
+    {
+      "Link": "/shop",
+      "title": "Shoes",
+      "image": "etik.png",
+      "price": 500,
+      "isComp": true,
+      "rating": 480,
+      "votes": 100,
+      "maxAmount": 13,
+      "Children": "<strong>IDK</strong>",
+      "ref": "useRef()"
+    },
+    {
+      "Link": "/shop",
+      "title": "Shoes",
+      "image": "etik.png",
+      "price": 500,
+      "isComp": true,
+      "rating": 480,
+      "votes": 100,
+      "maxAmount": 13,
+      "Children": "<strong>IDK</strong>"
+    },
+    {
+      "Link": "/shop",
+      "title": "Shoes",
+      "image": "etik.png",
+      "price": 500,
+      "isComp": true,
+      "rating": 480,
+      "votes": 100,
+      "maxAmount": 13,
+      "Children": "<strong>IDK</strong>"
+    },
+    {
+      "Link": "/shop",
+      "title": "Shoes",
+      "image": "etik.png",
+      "price": 500,
+      "isComp": true,
+      "rating": 480,
+      "votes": 100,
+      "maxAmount": 13,
+      "Children": "<strong>IDK</strong>"
+    }
+  ]
+  

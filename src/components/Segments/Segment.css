@@ -1,0 +1,62 @@
+.SegmentContainer {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #24252ace;
+}
+.SegmentContainer div {
+  height: 100%;
+  width: fit-content;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid rgb(0, 122, 255);
+  border-bottom: 2px solid rgb(0, 122, 255);
+  border-top: 2px solid rgb(0, 122, 255);
+}
+.SegmentContainer div img {
+  width: 60%;
+  height: 60%;
+  transition: all 0.5s linear;
+}
+.SegmentContainer div:nth-child(1) {
+  border-left: 2px solid rgb(0, 122, 255);
+  border-radius: 40px 0px 0px 40px;
+}
+.SegmentContainer div:nth-child(4) {
+  border-right: 2px solid rgb(0, 122, 255);
+  border-radius: 0px 40px 40px 0px;
+}
+.SegmentContainer .selected {
+  background-color: rgb(0, 122, 255);
+  img {
+    filter: invert(1);
+  }
+}
+.SegmentContainer div:hover {
+  img {
+    transform: scale(1.1);
+  }
+  background-color: rgba(0, 123, 255, 0.8);
+}
+@media (max-width: 768px) {
+  .SegmentContainer div img {
+    transform: scale(3);
+  }
+  .SegmentContainer div:hover {
+    img {
+      transform: scale(3.6);
+    }
+  }
+
+  .SegmentContainer {
+    width: min(100vw, fit-content);
+  }
+}

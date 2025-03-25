@@ -1,0 +1,98 @@
+.MyCard {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 7px 7px 5px hsla(0, 0%, 0%, 0.2);
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  height: auto;
+  max-width: 150px;
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+  animation: resetBackground 1s ease 1s forwards;
+}
+
+.MyCard .MyCard_image {
+  align-self: center;
+  max-width: 90%;
+  width: 90vw; /* Adjust width for mobile */
+  height: auto;
+  background-color: rgba(112, 112, 112, 0.103);
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.MyCard .MyCard_title {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  justify-content: center;
+  color: hsla(0, 0%, 20%, 0.801);
+  margin: 5px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.MyCard .MyCard_des {
+  height: 60px;
+  line-height: 20px;
+  padding: 0 5px;
+  text-align: left;
+  font-size: 15px; /* Adjust font size for mobile */
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.MyCard .MyCard_numberInput {
+  align-items: center;
+  gap: 5px;
+}
+
+.MyCard_numberInput button {
+  background-color: transparent;
+  margin: 5px; /* Adjust margin for mobile */
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 0px;
+  font-weight: bold;
+  color: hsl(0, 0%, 0%);
+}
+
+.MyCard_numberInput button:disabled {
+  color: rgba(255, 0, 0, 0.76);
+}
+
+.MyCard_numberInput label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 30%);
+  font-weight: bold;
+}
+
+.MyCard:hover {
+  box-shadow: 10px 10px 7px hsla(0, 0%, 0%, 0.3);
+}
+
+.MyCard .MyCard_price {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100px !important;
+  overflow-x: visible;
+  color: hsla(120, 73%, 41%, 0.815);
+  font-weight: bold;
+  font-size: 1em;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5px;
+  gap: calc(100vw / 28) !important;
+}
+@media (max-width: 290px) {
+  .MyCard {
+    margin: 2px !important;
+  }
+}

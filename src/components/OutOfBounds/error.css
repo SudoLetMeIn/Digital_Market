@@ -1,0 +1,19 @@
+
+.backButton{
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    color: #11948d;
+}
+.backButton a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.backButton strong::before{
+    color: #11948d;
+}
+.backButton strong:hover{
+    color: #1172f0;
+}

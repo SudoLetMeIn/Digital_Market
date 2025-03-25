@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "ShopifySans";
+  src: url("../fonts/ShopifySans.woff2") format("woff2"),
+    url("../fonts/ShopifySans.woff") format("woff");
+}
+@font-face {
+  font-family: "Ailerons";
+  src: url("../fonts/Ailerons.otf") format("otf");
+}
+.feed {
+  font-family: ShopifySans, Ailerons;
+  border-radius: 50px;
+}
+.stripe-right {
+  background-image: repeating-linear-gradient(
+    45deg,
+    black,
+    transparent 400px
+  ) !important;
+}
+.stripe-left {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    black,
+    transparent 400px
+  ) !important;
+}
+.feed-cover {
+  font-family: ShopifySans, Ailerons;
+  border-radius: 50px;
+  background-image: unset;
+}
+
+.feed-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  height: auto !important;
+}
+.hide-right {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.hide-left {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+@media (prefers-reduced-motion) {
+  .hide {
+    transition: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Front .feed-text .button {
+    left: 0;
+    transform: translateX(0);
+  }
+}

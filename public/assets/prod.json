@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "title": "Mountain Boots",
+    "image": "etik.png",
+    "price": 25,
+    "desc": "Winter boots from Norway, perfect for snowy adventures.",
+    "rating": 4,
+    "maxAmount": 3,
+    "type": "clothing"
+  },
+  {
+    "id": 2,
+    "title": "Hiking Shoes",
+    "image": "etik.png",
+    "price": 20,
+    "desc": "Lightweight and durable hiking shoes for outdoor enthusiasts.",
+    "rating": 3,
+    "maxAmount": 2,
+    "type": "clothing"
+  },
+  {
+    "id": 3,
+    "title": "Running Sneakers",
+    "image": "etik.png",
+    "price": 15,
+    "desc": "Comfortable running sneakers, ideal for daily workouts.",
+    "rating": 5,
+    "maxAmount": 5,
+    "type": "clothing"
+  },
+  {
+    "id": 4,
+    "title": "Casual Sneakers",
+    "image": "etik.png",
+    "price": 15,
+    "desc": "Stylish and versatile casual sneakers for everyday wear.",
+    "rating": 2,
+    "maxAmount": 1,
+    "type": "clothing"
+  },
+  {
+    "id": 5,
+    "title": "High-Top Sneakers",
+    "image": "etik.png",
+    "price": 15,
+    "desc": "Trendy high-top sneakers, perfect for urban street style.",
+    "rating": 4,
+    "maxAmount": 4,
+    "type": "clothing"
+  },
+  {
+    "id": 6,
+    "title": "Trail Running Shoes",
+    "image": "etik.png",
+    "price": 15,
+    "desc": "Durable trail running shoes designed for off-road adventures.",
+    "rating": 5,
+    "maxAmount": 3,
+    "type": "clothing"
+  },
+  {
+    "id": 7,
+    "title": "Football Cleats",
+    "image": "etik.png",
+    "price": 1500,
+    "desc": "Professional-grade football cleats for serious athletes.",
+    "rating": 1,
+    "maxAmount": 2,
+    "type": "clothing"
+  },
+  {
+    "id": 8,
+    "title": "Basketball Shoes",
+    "image": "etik.png",
+    "price": 200,
+    "desc": "Performance basketball shoes engineered for agility and support.",
+    "rating": 3,
+    "maxAmount": 4,
+    "type": "clothing"
+  },
+  {
+    "id": 9,
+    "title": "Sandals",
+    "image": "etik.png",
+    "price": 180,
+    "desc": "Comfortable sandals, perfect for summer vacations and beach days.",
+    "rating": 4,
+    "maxAmount": 2,
+    "type": "clothing"
+  },
+  {
+    "id": 10,
+    "title": "Dress Shoes",
+    "image": "etik.png",
+    "price": 120,
+    "desc": "Elegant dress shoes, suitable for formal occasions and events.",
+    "rating": 5,
+    "maxAmount": 3,
+    "type": "clothing"
+  },
+  {
+    "id": 11,
+    "title": "Winter Coat",
+    "image": "etik.png",
+    "price": 150,
+    "desc": "Stylish and warm winter coat to keep you cozy in cold weather.",
+    "rating": 2,
+    "maxAmount": 1,
+    "type": "clothing"
+  },
+  {
+    "id": 12,
+    "title": "Backpack",
+    "image": "etik.png",
+    "price": 50,
+    "desc": "Durable backpack with multiple compartments for all your essentials.",
+    "rating": 4,
+    "maxAmount": 5,
+    "type": "any"
+  },
+  {
+    "id": 13,
+    "title": "Yoga Mat",
+    "image": "etik.png",
+    "price": 30,
+    "desc": "Non-slip yoga mat for comfortable and stable practice sessions.",
+    "rating": 3,
+    "maxAmount": 2,
+    "type": "any"
+  },
+  {
+    "id": 14,
+    "title": "Swimwear",
+    "image": "etik.png",
+    "price": 40,
+    "desc": "Stylish swimwear for lounging by the pool or swimming in the ocean.",
+    "rating": 4,
+    "maxAmount": 4,
+    "type": "clothing"
+  },
+  {
+    "id": 15,
+    "title": "Sunglasses",
+    "image": "etik.png",
+    "price": 20,
+    "desc": "Fashionable sunglasses to protect your eyes and elevate your style.",
+    "rating": 5,
+    "maxAmount": 3,
+    "type": "any"
+  },
+  {
+    "id": 16,
+    "title": "Smartwatch",
+    "image": "etik.png",
+    "price": 100,
+    "desc": "Feature-rich smartwatch to track your fitness and stay connected.",
+    "rating": 3,
+    "maxAmount": 2,
+    "type": "any"
+  },
+  {
+    "id": 17,
+    "title": "Headphones",
+    "image": "etik.png",
+    "price": 80,
+    "desc": "High-quality headphones for immersive audio experiences on the go.",
+    "rating": 4,
+    "maxAmount": 3,
+    "type": "any"
+  },
+  {
+    "id": 18,
+    "title": "Portable Charger",
+    "image": "etik.png",
+    "price": 25,
+    "desc": "Compact and portable charger to keep your devices powered up anywhere.",
+    "rating": 5,
+    "maxAmount": 2,
+    "type": "any"
+  },
+  {
+    "id": 19,
+    "title": "Wireless Earbuds",
+    "image": "etik.png",
+    "price": 60,
+    "desc": "True wireless earbuds with long battery life and crisp sound quality.",
+    "rating": 2,
+    "maxAmount": 5,
+    "type": "any"
+  },
+  {
+    "id": 20,
+    "title": "Camping Tent",
+    "image": "etik.png",
+    "price": 200,
+    "desc": "Spacious camping tent for outdoor adventures with family and friends.",
+    "rating": 4,
+    "maxAmount": 3,
+    "type": "any"
+  },
+  {
+    "id": 21,
+    "title": "Stuffed Teddy Bear",
+    "image": "etik.png",
+    "price": 15,
+    "desc": "Soft and cuddly teddy bear for kids to play and snuggle with.",
+    "rating": 5,
+    "maxAmount": 10,
+    "type": "toys"
+  },
+  {
+    "id": 22,
+    "title": "LEGO Classic Brick Set",
+    "image": "etik.png",
+    "price": 30,
+    "desc": "Versatile LEGO brick set for creative building and imaginative play.",
+    "rating": 4,
+    "maxAmount": 5,
+    "type": "toys"
+  },
+  {
+    "id": 23,
+    "title": "Board Game Set",
+    "image": "etik.png",
+    "price": 25,
+    "desc": "Family-friendly board game set for hours of fun and entertainment.",
+    "rating": 4,
+    "maxAmount": 3,
+    "type": "toys"
+  },
+  {
+    "id": 24,
+    "title": "Kitchen Knife Set",
+    "image": "etik.png",
+    "price": 50,
+    "desc": "High-quality kitchen knife set for slicing, dicing, and chopping.",
+    "rating": 5,
+    "maxAmount": 5,
+    "type": "household"
+  },
+  {
+    "id": 25,
+    "title": "Cookware Set",
+    "image": "etik.png",
+    "price": 100,
+    "desc": "Complete cookware set for cooking delicious meals with ease.",
+    "rating": 4,
+    "maxAmount": 3,
+    "type": "household"
+  },
+  {
+    "id": 26,
+    "title": "Bedding Set",
+    "image": "etik.png",
+    "price": 80,
+    "desc": "Luxurious bedding set for a comfortable and stylish bedroom.",
+    "rating": 4,
+    "maxAmount": 2,
+    "type": "household"
+  },
+  {
+    "id": 27,
+    "title": "Essential Oil Diffuser",
+    "image": "etik.png",
+    "price": 40,
+    "desc": "Aromatherapy diffuser for creating a calming and soothing atmosphere.",
+    "rating": 5,
+    "maxAmount": 3,
+    "type": "household"
+  },
+  {
+    "id": 28,
+    "title": "Skincare Gift Set",
+    "image": "etik.png",
+    "price": 60,
+    "desc": "Luxurious skincare gift set for pampering and rejuvenating the skin.",
+    "rating": 4,
+    "maxAmount": 4,
+    "type": "beauty"
+  },
+  {
+    "id": 29,
+    "title": "Makeup Palette",
+    "image": "etik.png",
+    "price": 35,
+    "desc": "Versatile makeup palette with a range of shades for creating different looks.",
+    "rating": 5,
+    "maxAmount": 3,
+    "type": "beauty"
+  },
+  {
+    "id": 30,
+    "title": "Hair Dryer",
+    "image": "etik.png",
+    "price": 50,
+    "desc": "Powerful hair dryer for fast and efficient drying with minimal heat damage.",
+    "rating": 4,
+    "maxAmount": 2,
+    "type": "beauty"
+  }
+]

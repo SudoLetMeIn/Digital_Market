@@ -1,0 +1,9 @@
+.Contents-Of-About-Us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 80vh;
+}

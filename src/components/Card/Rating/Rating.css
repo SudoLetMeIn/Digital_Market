@@ -1,0 +1,19 @@
+.rating {
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+
+.star {
+  color: #ddd;
+  margin-right: 3px;
+}
+
+.star.filled {
+  color: #ffcc00;
+}
+@media (max-width: 767px) {
+  .rating {
+    font-size: 12px;
+  }
+}
